@@ -1,0 +1,53 @@
+Testi usati per la baseline di prova (21/07/2015)
+
+source:
+2013-01: special release for the IWSLT 2013 evaluation campaign
+
+https://wit3.fbk.eu/
+
+TRAINING: 62355 frasi, che dopo il cleaning (a 50) sono diventate 59498.
+
+TUNING: 2088 frasi (senza fare la pulizia ... da fare però nei prossimi esp.)
+		provare poi seguente comando:
+		$MOSES_SCRIPTS/training/mert-moses.pl work/dev.fr work/dev.en \
+    $MOSES_BIN/moses work/model/moses.ini --mertdir $MOSES_BIN \
+    --rootdir $MOSES_SCRIPTS --batch-mira --return-best-dev \
+    --batch-mira-args '-J 300' --decoder-flags '-threads 8 -v 0'
+
+TEST: 719 frasi (per completare il testo, altrimenti sarebbero state 644)
+
+ --- BLEU misurato solo su 10 frasi, score: 0.14
+
+ ************************************************************
+ Testi usati per baseline "definitiva" (23/07/2015)
+ 
+ source:
+ http://www.statmt.org/europarl/
+ 
+ cite: Europarl: A Parallel Corpus for Statistical Machine Translation, Philipp Koehn, MT Summit 2005
+ 
+ TRAINING: 100000 frasi --> diventate 85992 dopo il cleaning --> 84838 dopo ulteriore ri-allineamento con il bilingual sentence aligner
+ 
+ LANGUAGE MODEL: l'intero corpus italiano e inglese (~1.9M words each)
+ 
+ **************************************************************
+ Tempi di esecuzione (MT system it2en):
+  --addestramento con file giza già pronti: 10 min con -max-phrase-length 6, 20 min con parametro -max-phrase-length di default
+  -- esecuzione del decoder, con configurazione standard (senza fare il tuning): 30 min 
+  -- esecuzione del tuning (con --batch-mira): 11h circa - 12 run, poi interrotto
+  
+  ---- (w/o tuning) ----
+ BLEU = 25.53, 57.4/30.8/19.3/12.5 (BP=1.000, ratio=1.058, hyp_len=29362, ref_len=27750)
+
+ ---- (w. tuning - after run9) ----
+ BLEU = 87.69, 95.7/89.8/85.1/80.9 (BP=1.000, ratio=1.005, hyp_len=27875, ref_len=27750) 
+ 
+  **************************************************************
+ 
+ Tempi di esecuzione (MT system en2it): 
+  -- esecuzione del tuning (con --batch-mira): avviato alle 17:45 --> ....
+  -- esecuzione del decoder, con configurazione standard (dopo il tuning): 
+  
+  ---- (w/o tuning) ---- 
+ BLEU = 14.97, 46.5/20.3/11.1/6.2 (BP=0.939, ratio=0.941, hyp_len=26896, ref_len=28583)
+   
