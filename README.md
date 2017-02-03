@@ -1,4 +1,4 @@
-# partut-repo
+# ParTUT
 
 
 ParTUT is a morpho-syntactically annotated collection of Italian/French/English parallel sentences, 
@@ -19,4 +19,18 @@ gathered from a large number of sources and domains:
 * the [Web Inventory of Translated Talks](https://wit3.fbk.eu/mt.php?release=2012-02) .
 
 
-Since release 2.0, ParTUT wil also be available in the Universal Dependencies format. as part of the CoNLL 2017 Shared Task data.
+Since release 2.0, ParTUT will also be available in the Universal Dependencies format. as part of the CoNLL 2017 Shared Task data.
+
+
+# References
+
+If you use the resource, please cite:
+
+@incollection{parli:14,
+	author = {Manuela Sanguinetti and Cristina Bosco},
+	title = {PartTUT: The Turin University Parallel Treebank},
+	booktitle = {Harmonization and Development of Resources and Tools for Italian Natural Language Processing within the PARLI Project},	
+	year = {2014},
+	editor = {Roberto Basili and Cristina Bosco and Rodolfo Delmonte and Alessandro Moschitti and Maria Simi},
+     	pages = {51--69}
+     }
