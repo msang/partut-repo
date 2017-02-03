@@ -12,9 +12,9 @@ gathered from a large number of sources and domains:
 * the [Europarl](http://www.statmt.org/europarl/) parallel corpus (section ep_00_01_17);
 * publicly available pages from [Facebook website](https://www.facebook.com/help/345121355559712/);
 * the [JRC-Acquis multilingual parallel corpus](http://optima.jrc.it/Acquis/index_2.2.html) (section jrc52006DC243);
-* several articles from [Project Syndicate©](https://www.project-syndicate.org/) [ABSENT IN UD_French-ParTUT];
+* several articles from [Project Syndicate©](https://www.project-syndicate.org/);
 * the [Universal Declaration of Human Rights](http://www.ohchr.org/EN/UDHR/Pages/SearchByLang.aspx);
-* Wikipedia articles retrieved in the English section and then translated into Italian only by graduate students in Translation  Studies [ABSENT IN UD_French-ParTUT];
+* Wikipedia articles retrieved in the English section and then translated into Italian only by graduate students in Translation  Studies [ABSENT in French section];
 * the [Web Inventory of Translated Talks](https://wit3.fbk.eu/mt.php?release=2012-02) .
 
 
