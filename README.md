@@ -26,11 +26,5 @@ Since release 2.0, ParTUT will also be available in the Universal Dependencies f
 
 If you use the resource, please cite:
 
-@incollection{parli:14,
-	author = {Manuela Sanguinetti and Cristina Bosco},
-	title = {PartTUT: The Turin University Parallel Treebank},
-	booktitle = {Harmonization and Development of Resources and Tools for Italian Natural Language Processing within the PARLI Project},	
-	year = {2014},
-	editor = {Roberto Basili and Cristina Bosco and Rodolfo Delmonte and Alessandro Moschitti and Maria Simi},
-     	pages = {51--69}
-     }
+* Manuela Sanguinetti, Cristina Bosco. 2014. PartTUT: The Turin University Parallel Treebank. 
+  In Basili, Bosco, Delmonte, Moschitti, Simi (editors) Harmonization and development of resources and tools for Italian Natural Language Processing within the PARLI project, LNCS, Springer Verlag
