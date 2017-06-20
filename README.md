@@ -19,7 +19,7 @@ gathered from a large number of sources and domains:
 * the [Web Inventory of Translated Talks](https://wit3.fbk.eu/mt.php?release=2012-02) .
 
 
-Since release 2.0, ParTUT is also available in the Universal Dependencies format.
+Since release 2.0, ParTUT is also available in the Universal Dependencies format (see [here](https://github.com/UniversalDependencies/UD_English-ParTUT/tree/master) for English, [here](https://github.com/UniversalDependencies/UD_French-ParTUT/tree/master) for French, and [here](https://github.com/UniversalDependencies/UD_Italian-ParTUT/tree/master) for Italian).
 
 
 # References
