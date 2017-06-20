@@ -19,7 +19,7 @@ gathered from a large number of sources and domains:
 * the [Web Inventory of Translated Talks](https://wit3.fbk.eu/mt.php?release=2012-02) .
 
 
-Since release 2.0, ParTUT will also be available in the Universal Dependencies format. as part of the CoNLL 2017 Shared Task data.
+Since release 2.0, ParTUT is also available in the Universal Dependencies format.
 
 
 # References
